@@ -70,3 +70,26 @@
 //   return message;
 // }
 // printMessage("message");
+
+//9//
+// function printMessage(mesage: string): void {
+//   console.log("This is my ${message}");
+// }
+// printMessage("message");
+
+//10/Vòng lặp vô hạn
+// function throwError(msg: string): never {
+//   throw new Error(msg);
+// }
+// function infiniteLoop(): never {
+//   while (true) {}
+// }
+// let x: never;
+// function neverReturns(): never {
+//   while (true) {}
+// }
+// x = neverReturns();
+
+//Arrays Types//
+// Using the square bracket notation [] to indicate an array of a specific type
+// Using the generic Array<type> notation to indicate an array of a specific type
